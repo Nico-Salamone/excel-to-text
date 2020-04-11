@@ -6,9 +6,9 @@ import argparse
 from platform import python_version_tuple
 
 if python_version_tuple() >= ('3', '3', '0'):
-    from collections.abc import Iterable
+	from collections.abc import Iterable
 else:
-    from collections import Iterable
+	from collections import Iterable
 
 # Available formats and column alignments in python-tabulate: https://github.com/astanin/python-tabulate.
 AVAILABLE_FORMATS = ['plain', 'simple', 'github', 'grid', 'fancy_grid', 'pipe', 'orgtbl', 'rst', 'mediawiki', 'html',
