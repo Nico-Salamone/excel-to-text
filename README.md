@@ -1,5 +1,7 @@
 # Excel to text
 
+[![license](https://img.shields.io/github/license/Nico-Salamone/excel-to-text)](https://github.com/Nico-Salamone/excel-to-text/blob/master/LICENSE)
+
 It is quite tedious to edit Markdown or LaTeX tables. Especially, when you have to edit them many times (add a column, move a cell, etc.). In these cases, it is more convenient to use a WYSIWYG software like Excel or Apple Numbers. This is why "Excel to text" was created.
 
 Excel to text is a tiny scripy based on [python-tabulate](https://github.com/astanin/python-tabulate/blob/master/tabulate.py) aims to convert an Excel, [Numbers](https://www.apple.com/numbers/) or [Notes](https://support.apple.com/HT205773) table to text, LaTeX, Markdown, reStructuredText, etc. Basically, it is an extended version of the python-tabulate's CLI supporting column alignment.
@@ -63,11 +65,11 @@ optional arguments:
 
 Suppose that we have the following table in Microsoft Excel, Apple Numbers or Apple Notes. Notice that some cells are empty.
 
-![exmaple_table](docs/example/table_excel.png)
+![example_table_excel](docs/example/table_excel.png)
 
 By copying pasting it in a text file, we get the following.
 
-![exmaple_table](docs/example/table_txt.png)
+![example_table_txt](docs/example/table_txt.png)
 
 Then, we save it in `docs/example/table.txt`.
 
