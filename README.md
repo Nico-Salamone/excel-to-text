@@ -8,9 +8,11 @@ Excel to text is a tiny scripy based on [python-tabulate](https://github.com/ast
 
 ### How to install
 
-Run the following command to install Excel to text:
+Run the following commands in your terminal to install Excel to text:
 
 ```sh
+$ git clone https://github.com/Nico-Salamone/excel-to-text.git
+$ cd excel-to-text/
 $ pip3 install .
 ```
 
